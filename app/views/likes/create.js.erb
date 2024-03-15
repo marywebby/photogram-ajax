@@ -1,3 +1,1 @@
-console.log("hi")
-
 $("#<%= dom_id(@like.photo) %>_likes").replaceWith("<%= j(render "photos/likes", photo: @like.photo) %>")
